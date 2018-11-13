@@ -5,6 +5,7 @@ brew "bash"
 brew "bash-completion@2"
 brew "coreutils"
 brew "findutils"
+brew "fzf"
 brew "git"
 brew "gnu-sed", args: ["with-default-names"]
 brew "grep"
