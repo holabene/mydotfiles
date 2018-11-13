@@ -1,8 +1,8 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
-# ADD `/usr/local/bin` to use homebrew git
-export PATH="/usr/local/bin:${PATH}"
+# ADD `$(brew --prefix coreutils)/libexec/gnubin`
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

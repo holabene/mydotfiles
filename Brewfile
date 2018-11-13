@@ -1,5 +1,16 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "bash"
+brew "bash-completion@2"
+brew "coreutils"
+brew "findutils"
 brew "git"
+brew "gnu-sed", args: ["with-default-names"]
+brew "grep"
+brew "openssh"
+brew "tree"
+brew "vim", args: ["with-override-system-vi"]
+brew "wget"
 cask "gpg-suite"
+cask "iterm2"
