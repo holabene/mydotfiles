@@ -9,6 +9,7 @@ brew "fzf"
 brew "git"
 brew "gnu-sed", args: ["with-default-names"]
 brew "grep"
+brew "node"
 brew "openssh"
 brew "tree"
 brew "vim", args: ["with-override-system-vi"]
