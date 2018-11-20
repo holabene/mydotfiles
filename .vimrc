@@ -140,3 +140,6 @@ map <C-o> :NERDTreeToggle<CR>
 
 " Show signcolumns for Gitgutter
 set signcolumn=yes
+
+" Expand tab
+set expandtab
