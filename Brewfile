@@ -14,5 +14,7 @@ brew "openssh"
 brew "tree"
 brew "vim", args: ["with-override-system-vi"]
 brew "wget"
+cask "docker"
+cask "google-chrome"
 cask "gpg-suite"
 cask "iterm2"
