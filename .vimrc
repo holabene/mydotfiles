@@ -76,8 +76,6 @@ set number
 syntax on
 " Highlight current line
 set cursorline
-" Make tabs as wide as two spaces
-set tabstop=2
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
@@ -136,10 +134,11 @@ if has("autocmd")
 endif
 
 " NERDTree
-map <C-o> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " Show signcolumns for Gitgutter
 set signcolumn=yes
 
-" Expand tab
-set expandtab
+" keymaps
+map <C-o> :NERDTreeToggle<CR>
+map <Leader><Space> :noh<CR>

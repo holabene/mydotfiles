@@ -2,7 +2,17 @@ root = true
 
 [*]
 charset = utf-8
-indent_style = tab
+indent_style = space
+indent_size = 4
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Tab size for specific files
+[{package.json,.travis.yml}]
+indent_size = 2
+
+# Tab indentation for specific files
+[{Makefile,*.sh,.vimrc}]
+indent_style = tab
