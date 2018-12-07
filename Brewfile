@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "aws-elasticbeanstalk"
 brew "bash"
 brew "bash-completion@2"
 brew "coreutils"
