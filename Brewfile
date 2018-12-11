@@ -11,6 +11,7 @@ brew "git"
 brew "gnu-sed", args: ["with-default-names"]
 brew "grep"
 brew "hugo"
+brew "mysql-client"
 brew "node"
 brew "openssh"
 brew "tree"
