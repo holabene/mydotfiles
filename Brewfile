@@ -16,6 +16,7 @@ brew "hugo"
 brew "mysql-client"
 brew "node"
 brew "openssh"
+brew "php-cs-fixer"
 brew "tree"
 brew "vim", args: ["with-override-system-vi"]
 brew "wget"
