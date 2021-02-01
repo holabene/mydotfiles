@@ -7,6 +7,10 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 # mysql client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
+# php 7.4
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
